@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;500;600&family=Lato:wght@400&display=swap');
+
+*{
+
+    --base: #FFFFFF;
+    --borderColor: #454545;
+    --cardColors: rgba(25,25,25,.15);
+    --accentColor: #FF1744;
+    color: white;
+}
+
+/* selecting just body element*/
+body {
+
+    background-color: skyblue;
+    background-image: url(./assets/green-blue-background.png);
+
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 60px;
+    padding-bottom: 0px;
+}
+
+header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-bottom: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    color:var(--accentColor);
+    font-size: 32px;
+    font-weight: 700;
+    background-color: var(--cardColors);
+}
+
+header::first-letter{
+    font-size: 45px;
+}
+
+button:hover{
+    background-color: aquamarine;
+}
+
+.title{
+    font-family:Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-style: italic;
+    font-size: 60px;
+    margin-bottom: 32px;
+}
+
+.title::first-letter{
+    color: var(--accentColor);
+    initial-letter: 2;
+    padding: 1.5px;
+
+}
+
+button{
+    text-align: center;
+    color-background: blue;
+    box-shadow: #454545;    
+    color: #454545;
+}
+
+h3{
+      color: #454545;
+}
+
+li{
+  color: #454545;
+}
+.img{
+  width: 100%;
+  height: 300px;
+  margin-bottom: 12px;
+  object-fit: cover;
+} 
